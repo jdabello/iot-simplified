@@ -1,0 +1,17 @@
+{
+	"dependencies": {
+		"@google-cloud/bigtable": "^0.10.2",
+		"@google-cloud/debug-agent": "latest",
+		"safe-buffer": "latest",
+		"time": "latest"
+	},
+	"name": "my-iot-sample",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "jdabello",
+	"license": "ISC",
+	"description": ""
+}
