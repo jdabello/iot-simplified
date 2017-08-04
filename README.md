@@ -130,7 +130,10 @@ Also, if you go to the [Stackdriver Logging viewer](https://console.cloud.google
 To create the federated table go to the [BigQuery Console](https://bigquery.cloud.google.com) and create a dataset in your project.
 
 Create a new table on that dataset with the following options:
-1. Location: Google Cloud Bigtable with this source https://googleapis.com/bigtable/projects/<MY-PROJECT>/instances/<MY-CLOUD-BIGTABLE-INSTANCE>/tables/<MY-CLOUD-BIGTABLE-TABLE>
+1. Location: Google Cloud Bigtable with this source 
+```
+https://googleapis.com/bigtable/projects/<MY-PROJECT>/instances/<MY-CLOUD-BIGTABLE-INSTANCE>/tables/<MY-CLOUD-BIGTABLE-TABLE>
+```
 2. On the Column Family and Qualifiers section, click on Edit as Text and paste the following JSON.
 
 ```json
