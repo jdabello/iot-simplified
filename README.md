@@ -6,13 +6,13 @@ The IoT device used on this example is a Raspberry Pi with a Rainbow Hat that is
 
 ## Table of Contents
 1. [Google Cloud Platform](#gcp)
-  2. [Create Pub/Sub topic](pubsub)
-  3. [Create the Bigtable instance](bigtable)
-  4. [Create the table](createtable)
-  5. [Create the Cloud Function](createfunction)
-6. [Client](client)
-7. [Create federated table in BigQuery](bigquery)
-8. [Next Steps](nextsteps)
+  2. [Create Pub/Sub topic](#pubsub)
+  3. [Create the Bigtable instance](#bigtable)
+  4. [Create the table](#createtable)
+  5. [Create the Cloud Function](#createfunction)
+6. [Client](#client)
+7. [Create federated table in BigQuery](#bigquery)
+8. [Next Steps](#nextsteps)
 
 ## <a name="gcp"></a>1. Google Cloud Platform
 
