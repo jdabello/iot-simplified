@@ -5,7 +5,7 @@ This directory contains a sample of a real-time stream processing architecture f
 The IoT device used on this example is a Raspberry Pi with a Rainbow Hat that is used to measure temperature and pressure. It is using the [Pimoroni Python driver for Rainbow HAT](https://github.com/pimoroni/rainbow-hat).
 
 ## Table of Contents
-1. [Google Cloud Platform](gcp)
+1. [Google Cloud Platform](#gcp)
   2. [Create Pub/Sub topic](pubsub)
   3. [Create the Bigtable instance](bigtable)
   4. [Create the table](createtable)
