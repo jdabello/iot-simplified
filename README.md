@@ -20,7 +20,7 @@ The data gathered from the IoT devices is going to be ingested and stored in Goo
 
 This sample assumes that you already have a Google Cloud Platform project created. Check the [documentation](https://cloud.google.com/resource-manager/docs/creating-managing-projects) if you need help creating the project.
 
-## <a href="pubsub"></a>2. Create Pub/Sub topic
+## <a name="pubsub"></a>2. Create Pub/Sub topic
 
 Execute the gcloud init command to initialize or reinitialize gcloud. This starts an interactive workflow that authorizes gcloud and other SDK tools to access Google Cloud Platform using your user account credentials, and sets properties in a gcloud configuration, including the current project and the default Google Compute Engine region and zone.
 
@@ -33,11 +33,11 @@ Once you have your project set up and you are authorized to access Google Cloud 
 ```bash
 gcloud beta pubsub topics create <MY-TOPIC> --project <MY-IOT-PROJECT>
 ```
-## <a href="bigtable"></a>3. Create the Bigtable instance
+## <a name="bigtable"></a>3. Create the Bigtable instance
 
 Follow the steps described in [Creating a Cloud Bigtable Instance](https://cloud.google.com/bigtable/docs/creating-instance) to create a Bigtable instance. For this sample you can use a DEVELOPMENT instance.
 
-## <a href="createtable"></a>4. Create the table
+## <a name="createtable"></a>4. Create the table
 
 Configure cbt to use your project and instance by modifying the .cbtrc file, replacing [MY-IOT-PROJECT] with your project ID, and [my-iot-instance] with your instance ID (used on step 3):
 
@@ -65,7 +65,7 @@ gcloud components update
 gcloud components install cbt
 ```
 
-## <a href="createfunction"></a>5. Create the Cloud Function
+## <a name="createfunction"></a>5. Create the Cloud Function
 
 The code of the Cloud Function that is going to be used to process the pub/sub messages is in the [index.js](index.js) file, and all its dependencies are defined in [package.json](package.json).
 
