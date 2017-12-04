@@ -101,7 +101,7 @@ gcloud auth application-default login
 
 The code of the Client that is going to be used to publish the pub/sub messages is in the [iot_client.py](iot_client.py) file, and all its dependencies are defined in [requirements.txt](requirements.txt).
 
-Clone or Download both files to your device, and edit the TOPIC-NAME on lines 11 to match the name of the pub/sub topic created on step 1. 
+Clone or Download both files to your device, and edit the TOPIC-NAME on line 11 to match the name of the pub/sub topic created on step 1. 
 
 ### Install Dependencies
 
